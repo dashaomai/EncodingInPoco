@@ -36,7 +36,9 @@ int main(int argc, char** argv) {
 
       if (props.script == Unicode::Script::UCP_HAN) {
         cout << " is an Chinese character." << endl;
-      }
+			} else {
+				cout << endl;
+			}
     }
 
     cout << endl;
